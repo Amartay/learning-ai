@@ -1,0 +1,1 @@
+C:\Users\amartays\OneDrive - Microsoft\Documents\GitHub>.\env\Scripts\activate
