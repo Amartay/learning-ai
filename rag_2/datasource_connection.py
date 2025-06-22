@@ -6,9 +6,11 @@ from azure.search.documents.indexes.models import (
 )
 
 # Set credentials and connection info
-AZURE_SEARCH_SERVICE = "https://ser-aaif-ass-learning-dev.search.windows.net"
-AZURE_SEARCH_ADMIN_KEY = "ZgkyVfMQtv4lLjbzKjTU96Be5xKAgrV10YLWYbyExeAzSeBrDlqq"
-AZURE_STORAGE_CONNECTION = "DefaultEndpointsProtocol=https;AccountName=seraaifsalearningdev;AccountKey=ccbl+2S1PRHJ6zYN3q7oiF8kG7gq24wgJZtCo4gYMmEXLJrtypBsmyNorHR4tRQ89JffdmlVJuOP+AStimSCxQ==;EndpointSuffix=core.windows.net"
+AZURE_SEARCH_SERVICE = "https://ai-foundry-ai-service-rag.search.windows.net"
+AZURE_SEARCH_ADMIN_KEY = "zBXsB4hzufySdD8UXojhK5akeIVGjrbkQ9c2sEsauIAzSeBkJcUC"
+AZURE_STORAGE_CONNECTION = "DefaultEndpointsProtocol=https;AccountName=servsacomman;AccountKey=UeLe0StLbTjYEsH2AsTmb53+sciobvb2hTgUxco8p9pWY/vg0W45DK22lJ/mlDPTUB0GchdLoE6++AStL6SEVQ==;EndpointSuffix=core.windows.net"
+container = SearchIndexerDataContainer(name="ragdatainput")
+
 
 # Create indexer client with AzureKeyCredential
 indexer_client = SearchIndexerClient(
@@ -17,7 +19,7 @@ indexer_client = SearchIndexerClient(
 )
 
 # Define blob container
-container = SearchIndexerDataContainer(name="nasa-ebooks-pdfs-all")
+container = SearchIndexerDataContainer(name="ragdatainput")
 
 # Define data source connection
 data_source_connection = SearchIndexerDataSourceConnection(

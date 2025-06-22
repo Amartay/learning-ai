@@ -12,9 +12,9 @@ from azure.search.documents.indexes.models import (
 )
 
 # Configuration
-AZURE_SEARCH_SERVICE = "https://ser-aaif-ass-learning-dev.search.windows.net"
-AZURE_SEARCH_ADMIN_KEY = "ZgkyVfMQtv4lLjbzKjTU96Be5xKAgrV10YLWYbyExeAzSeBrDlqq"
-AZURE_OPENAI_ACCOUNT = "https://ser-aoai-learning-dev.openai.azure.com/"
+AZURE_SEARCH_SERVICE = "https://ai-foundry-ai-service-rag.search.windows.net"
+AZURE_SEARCH_ADMIN_KEY = "zBXsB4hzufySdD8UXojhK5akeIVGjrbkQ9c2sEsauIAzSeBkJcUC"
+AZURE_OPENAI_ACCOUNT = "https://amart-mc766w2n-eastus2.openai.azure.com/"
 
 # Create the credential using the admin key
 credential = AzureKeyCredential(AZURE_SEARCH_ADMIN_KEY)
