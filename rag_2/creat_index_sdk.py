@@ -12,8 +12,7 @@ from azure.search.documents.indexes.models import (
     SearchIndex
 )
 
-from azure.core.credentials import AzureKeyCredential
-credential = AzureKeyCredential("YOUR_ADMIN_KEY")
+credential = DefaultAzureCredential()
 
 # Configuration
 AZURE_SEARCH_SERVICE = "https://ai-foundry-ai-service-rag.search.windows.net"
