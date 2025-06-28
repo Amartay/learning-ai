@@ -19,11 +19,11 @@ skillset_name = "py-rag-tutorial-ss"
 index_name = "py-rag-tutorial-idx"
 
 # === Config ===
-AZURE_SEARCH_SERVICE = "https://ser-aaif-ass-learning-dev.search.windows.net"
-AZURE_SEARCH_ADMIN_KEY = "ZgkyVfMQtv4lLjbzKjTU96Be5xKAgrV10YLWYbyExeAzSeBrDlqq"
+AZURE_SEARCH_SERVICE = "https://ai-foundry-ai-service-rag.search.windows.net"
+AZURE_SEARCH_ADMIN_KEY = "zBXsB4hzufySdD8UXojhK5akeIVGjrbkQ9c2sEsauIAzSeBkJcUC"
 
-AZURE_AI_SERVICES_KEY = "BfppO4igrIyAsncw0nnSaiyPPKtwv3JhNi4x28VcpYxg2fqeoKSXJQQJ99BFACHYHv6XJ3w3AAAAACOGx2MV"
-AZURE_OPENAI_ENDPOINT = "https://amart-mbzcgt6a-swedencentral.openai.azure.com/"
+AZURE_AI_SERVICES_KEY = "3MR0WxdrilUedw3JhZhmY7HAIRUJm141YqsOmD0F83xCIv4s75ifJQQJ99BFACBsN54XJ3w3AAAAACOG5kGe"
+AZURE_OPENAI_ENDPOINT = "https://amart-mc766w2n-eastus2.openai.azure.com/"
 
 # === Auth ===
 search_credential = AzureKeyCredential(AZURE_SEARCH_ADMIN_KEY)

@@ -1,1 +1,0 @@
-az ai project show --name learning-prj-dev --resource-group rg-learning-dev
