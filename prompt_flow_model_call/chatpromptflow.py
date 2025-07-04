@@ -6,7 +6,7 @@ import json
 load_dotenv()
 
 data = {
-    "question": "Where to travel in londons?",
+    "question": "Where did I ask you to go previous to India?",
     "chat_history": []
 }
 
